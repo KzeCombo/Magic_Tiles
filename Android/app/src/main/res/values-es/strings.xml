@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Piano </string>
+    <string name="piano_tiles">Piano Tiles</string>
+    <string name="bouton_new">Nueva Parte</string>
+    <string name="bouton_reprendre">Continuar</string>
+    <string name="bouton_rejouer">Jugar de nuevo</string>
+    <string name="bouton_enregistrer">Registro</string>
+    <string name="bouton_menu">Menú</string>
+    <string name="bouton_score">puntuaciones</string>
+    <string name="bouton_valider">validar</string>
+    <string name="bouton_annuler">Cancelar</string>
+    <string name="mode">Zarbi</string>
+    <string name="score">Anotación : </string>
+    <string name="gagne">¡Ganaste! </string>
+    <string name="perdu">¡Perdido! </string>
+    <string name="meilleur">Mejor puntuación : </string>
+    <string name="textview_enregistrer">Registro</string>
+    <string name="nom">Apodo : </string>
+    <string name="date">Date : </string>
+    <string name="retour_menu">Volver al menú principal</string>
+    <string name="supprimer">Suprimir</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Piano </string>
+    <string name="piano_tiles">Piano Tiles</string>
+    <string name="bouton_new">New Game</string>
+    <string name="bouton_reprendre">Resume</string>
+    <string name="bouton_rejouer">Play again</string>
+    <string name="bouton_enregistrer">Registering</string>
+    <string name="bouton_menu">Menu</string>
+    <string name="bouton_score">Scores</string>
+    <string name="bouton_valider">Submit</string>
+    <string name="bouton_annuler">Cancel</string>
+    <string name="mode">Zarbi</string>
+    <string name="score">Score : </string>
+    <string name="gagne">Won !</string>
+    <string name="perdu">lose !</string>
+    <string name="meilleur">High score : </string>
+    <string name="textview_enregistrer">Registering</string>
+    <string name="nom">Name : </string>
+    <string name="date">Date : </string>
+    <string name="retour_menu">Back to the main menu</string>
+    <string name="supprimer">Delete</string>
+</resources>

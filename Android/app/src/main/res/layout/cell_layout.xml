@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/classementCell"
+            android:layout_width="60dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/nomCell"
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/scoreCell"
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/dateCell"
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"/>
+    </TableRow>
+
+</TableLayout>
