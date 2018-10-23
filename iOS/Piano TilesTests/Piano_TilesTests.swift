@@ -2,8 +2,8 @@
 //  Piano_TilesTests.swift
 //  Piano TilesTests
 //
-//  Created by Alexandre Gresset on 27/03/2018.
-//  Copyright © 2018 Alexandre Gresset. All rights reserved.
+//  Created by COMBO Kamarouzamane on 22/10/2018.
+//  Copyright © 2018 COMBO Kamarouzamane. All rights reserved.
 //
 
 import XCTest
