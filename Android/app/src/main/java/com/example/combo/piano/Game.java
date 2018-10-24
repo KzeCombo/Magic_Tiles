@@ -2,6 +2,7 @@ package com.example.combo.piano;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
@@ -25,6 +26,8 @@ import java.util.Date;
  */
 
 public class Game extends AppCompatActivity{
+
+    private MediaPlayer gameOverSong;
 
 
     private final int NB_TUILES_TOTAL = 20;                         // Le nombre de touches au total dans la partie
@@ -169,7 +172,8 @@ public class Game extends AppCompatActivity{
                     nbtuiles--;                                                                                             // et on decremente le nombre de touches
                 }
                 else{                                                                                                       // Si le joueur s'est trompe
-                    case01.setBackgroundColor(Color.RED);                                                                   // On le signale en coloriant la touche en rouge
+                    case01.setBackgroundColor(Color.RED);                                                              // On le signale en coloriant la touche en rouge
+                    playGameOver();
                     chrono.stop();                                                                                          // On arrete le chronometre
                     Intent intent = new Intent(Game.this, ResultatNeg.class);                                  // On cree une nouvelle instance de la classe Intent de la classe Game vers ResultatNeg
                     startActivity(intent);
@@ -199,6 +203,7 @@ public class Game extends AppCompatActivity{
                 }
                 else{
                     case02.setBackgroundColor(Color.RED);
+                    playGameOver();
                     chrono.stop();
                     Intent intent = new Intent(Game.this, ResultatNeg.class);
                     startActivity(intent);
@@ -228,6 +233,7 @@ public class Game extends AppCompatActivity{
                 }
                 else{
                     case03.setBackgroundColor(Color.RED);
+                    playGameOver();
                     chrono.stop();
                     Intent intent = new Intent(Game.this, ResultatNeg.class);
                     startActivity(intent);
@@ -257,6 +263,7 @@ public class Game extends AppCompatActivity{
                 }
                 else{
                     case04.setBackgroundColor(Color.RED);
+                    playGameOver();
                     chrono.stop();
                     Intent intent = new Intent(Game.this, ResultatNeg.class);
                     startActivity(intent);
@@ -604,5 +611,25 @@ public class Game extends AppCompatActivity{
         outState.putBoolean("etat_mode", onOff.isChecked());
 
         super.onSaveInstanceState(outState);
+    }
+
+    public void playGameOver(){
+        stopGameOver();
+        gameOverSong = MediaPlayer.create(this, R.raw.game_over);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameOver();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void stopGameOver(){
+        if(gameOverSong != null){
+            gameOverSong.release();
+            gameOverSong = null;
+        }
     }
 }

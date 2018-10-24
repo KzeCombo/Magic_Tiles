@@ -25,7 +25,9 @@ public class Score {
         return id;
     }
 
-    public int getClassement() { return classement; }
+    public int getClassement() { 
+        return classement; 
+    }
 
     public String getScore() {
         return score;
@@ -39,9 +41,12 @@ public class Score {
         return date;
     }
 
-    public void setId(long id) { this.id = id; }
+    public void setClassement(int classement) { 
+    }
 
-    public void setClassement(int classement) { this.classement = classement; }
+    public void setId(long id) { 
+        this.classement = classement; 
+    }
 
     public void setScore(String score) {
         this.score = score;
