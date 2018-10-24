@@ -28,6 +28,7 @@ import java.util.Date;
 public class Game extends AppCompatActivity{
 
     private MediaPlayer gameOverSong;
+    private MediaPlayer gameEndSong;
 
 
     private final int NB_TUILES_TOTAL = 20;                         // Le nombre de touches au total dans la partie
@@ -586,6 +587,7 @@ public class Game extends AppCompatActivity{
                 intent.putExtra("score", score);
                 DateFormat dtf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
                 intent.putExtra("date", dtf.format(new Date()).toString());
+                playGameEnd();                                                          // On joue la musique de fin de jeu
                 startActivity(intent);
                 finish();
                 break;
@@ -614,22 +616,39 @@ public class Game extends AppCompatActivity{
     }
 
     public void playGameOver(){
-        stopGameOver();
+        stopGameSong();
         gameOverSong = MediaPlayer.create(this, R.raw.game_over);
         gameOverSong.setOnCompletionListener(
                 new MediaPlayer.OnCompletionListener() {
                     @Override
                     public void onCompletion(MediaPlayer mp) {
-                        stopGameOver();
+                        stopGameSong();
                     }
                 });
         gameOverSong.start();
     }
 
-    public void stopGameOver(){
+    public void playGameEnd(){
+         stopGameSong();
+        gameEndSong = MediaPlayer.create(this, R.raw.rooftop_run_modern);
+        gameEndSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameEndSong.start();
+    }
+
+    public void stopGameSong(){
         if(gameOverSong != null){
             gameOverSong.release();
             gameOverSong = null;
+        }
+        else if(gameEndSong != null){
+            gameEndSong.release();
+            gameEndSong = null;
         }
     }
 }
