@@ -9,7 +9,7 @@
     <string name="bouton_score">Scores</string>
     <string name="bouton_valider">Valider</string>
     <string name="bouton_annuler">Annuler</string>
-    <string name="mode">Zarbi</string>
+    <string name="mode">Changer de mode</string>
     <string name="score">Score : </string>
     <string name="gagne">Gagné !</string>
     <string name="perdu">Perdu !</string>
@@ -19,4 +19,5 @@
     <string name="date">Date : </string>
     <string name="retour_menu">Retour au menu principal</string>
     <string name="supprimer">Supprimer</string>
+    <string name="bouton_photo">Photo</string>
 </resources>

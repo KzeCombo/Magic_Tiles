@@ -2,8 +2,10 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
     <Button
         android:id="@+id/case01"
@@ -208,14 +210,14 @@
         android:id="@+id/chrono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginTop="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/onOff"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205"
-        />
+        app:layout_constraintVertical_bias="0.3" />
+
 </android.support.constraint.ConstraintLayout>
