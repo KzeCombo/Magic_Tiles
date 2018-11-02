@@ -1,4 +1,4 @@
-# Piano_Tiles
+# Magic_Tiles
 Jeu mobile, qui fonctionne sous Android et iOS
 
 
