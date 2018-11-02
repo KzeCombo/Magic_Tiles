@@ -2,11 +2,14 @@ package com.example.combo.piano;
 
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +22,10 @@ public class Enregistrer extends AppCompatActivity{
 
     private Button valider;                 // boutons pour valider et annuler l'enregistrement
     private Button annuler;
+    private Button photo;                   // bouton pour prendre en photo le joueur
+
+    ImageView imgTakePic;
+    private static final  int CAN_REQUIEST = 1313;
 
     private TextView score;                 // textviews pour afficher le score du joueur
     private TextView date;
@@ -36,6 +43,7 @@ public class Enregistrer extends AppCompatActivity{
 
         valider = findViewById(R.id.bvalider);              // Association des composants du fichier xml aux variables
         annuler = findViewById(R.id.bannuler);
+
         score = findViewById(R.id.scoreTextView);
         date = findViewById(R.id.dateTextView);
         nom = findViewById(R.id.nomEdit);
@@ -75,7 +83,4 @@ public class Enregistrer extends AppCompatActivity{
         });
     }
 
-    @Override
-    public void onBackPressed() {
-    }
 }

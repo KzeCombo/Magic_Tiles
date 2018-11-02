@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Piano </string>
-    <string name="piano_tiles">Piano Tiles</string>
+    <string name="app_name">Magic Tiles </string>
+    <string name="piano_tiles">Magic Tiles</string>
     <string name="bouton_new">Nouvelle Partie</string>
     <string name="bouton_reprendre">Reprendre</string>
     <string name="bouton_rejouer">Rejouer</string>
