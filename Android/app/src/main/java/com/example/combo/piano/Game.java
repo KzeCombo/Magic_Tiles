@@ -419,7 +419,7 @@ public class Game extends AppCompatActivity{
                 case01.setBackgroundColor(c2);
                 case03.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
-                playFa();
+                playRe();
                 ligne0 = 2;
                 break;
             case 3:
@@ -427,7 +427,7 @@ public class Game extends AppCompatActivity{
                 case01.setBackgroundColor(c2);
                 case02.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
-                playLa();
+                playMi();
                 ligne0 = 3;
                 break;
             case 4:
@@ -435,7 +435,7 @@ public class Game extends AppCompatActivity{
                 case01.setBackgroundColor(c2);
                 case02.setBackgroundColor(c2);
                 case03.setBackgroundColor(c2);
-                playMi();
+                playFa();
                 ligne0 = 4;
                 break;
         }
@@ -445,7 +445,7 @@ public class Game extends AppCompatActivity{
                 case12.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
-                playDo();
+                playSol();
                 ligne1 = 1;
                 break;
             case 2:
@@ -453,7 +453,7 @@ public class Game extends AppCompatActivity{
                 case11.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
-                playFa();
+                playLa();
                 ligne1 = 2;
                 break;
             case 3:
@@ -461,7 +461,7 @@ public class Game extends AppCompatActivity{
                 case11.setBackgroundColor(c2);
                 case12.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
-                playRe();
+                playSi();
                 ligne1 = 3;
                 break;
             case 4:
@@ -469,7 +469,7 @@ public class Game extends AppCompatActivity{
                 case11.setBackgroundColor(c2);
                 case12.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
-                playMi();
+                playDo();
                 ligne1 = 4;
                 break;
         }
@@ -487,7 +487,7 @@ public class Game extends AppCompatActivity{
                 case21.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
-                playDo();
+                playFa();
                 ligne2 = 2;
                 break;
             case 3:
@@ -495,7 +495,7 @@ public class Game extends AppCompatActivity{
                 case21.setBackgroundColor(c2);
                 case22.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
-                playSi();
+                playSol();
                 ligne2 = 3;
                 break;
             case 4:
@@ -503,7 +503,7 @@ public class Game extends AppCompatActivity{
                 case21.setBackgroundColor(c2);
                 case22.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
-                playSol();
+                playLa();
                 ligne2 = 4;
                 break;
         }
@@ -523,7 +523,7 @@ public class Game extends AppCompatActivity{
                 case31.setBackgroundColor(c2);
                 case33.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
-                playSi();
+                playDo();
                 ligne3 = 2;
                 break;
             case 3:
@@ -531,7 +531,7 @@ public class Game extends AppCompatActivity{
                 case31.setBackgroundColor(c2);
                 case32.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
-                playLa();
+                playRe();
                 ligne3 = 3;
                 break;
             case 4:
@@ -555,7 +555,7 @@ public class Game extends AppCompatActivity{
                 case32.setBackgroundColor(c2);
                 case33.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
-                playLa();
+                playFa();
                 break;
             case 3:
                 case31.setBackgroundColor(c2);              // S'il en reste 3, les deux dernières lignes seront coloriees en blanc (ou noir)
@@ -566,7 +566,7 @@ public class Game extends AppCompatActivity{
                 case22.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
-                playLa();
+                playSol();
                 break;
             case 2:
                 case31.setBackgroundColor(c2);              // Et ainsi de suite ...
@@ -581,7 +581,7 @@ public class Game extends AppCompatActivity{
                 case12.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
-                playSi();
+                playLa();
                 break;
             case 1:
                 case31.setBackgroundColor(c2);
@@ -637,7 +637,7 @@ public class Game extends AppCompatActivity{
     // Music
     public void playDo(){
         stopGameSong();
-        gameOverSong = MediaPlayer.create(this, R.raw.si);
+        gameOverSong = MediaPlayer.create(this, R.raw.song_do);
         gameOverSong.setOnCompletionListener(
                 new MediaPlayer.OnCompletionListener() {
                     @Override
