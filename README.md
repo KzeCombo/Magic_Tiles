@@ -2,4 +2,4 @@
 Jeu mobile, qui fonctionne sous Android et iOS
 
 
-By COMBO Kamarouzamane
+By Kamarouzamane COMBO & Hajanirina RANDIMBISOA
