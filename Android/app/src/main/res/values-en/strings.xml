@@ -20,4 +20,9 @@
     <string name="retour_menu">Back to the main menu</string>
     <string name="supprimer">Delete</string>
     <string name="bouton_photo">Picture</string>
+    <string name="initial_content">initial content</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="security_error">Security error</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">Map</string>
 </resources>

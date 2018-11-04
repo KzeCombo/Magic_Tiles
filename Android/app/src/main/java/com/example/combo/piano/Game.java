@@ -281,7 +281,7 @@ public class Game extends AppCompatActivity{
     protected void initialisation(int l1, int l2, int l3, int l4, int c1, int c2){
         switch (l1){                                        // Cas sur la ligne 0
             case 1:                                         // Si l1 = 0
-                case01.setBackgroundColor(c1);              // On colore la case01 en noir (mode normal) ou blanc (mode zarbi) et le reste en blanc (resp. noir)
+                case01.setBackgroundColor(c1);              // On colore la case01 en noir (mode normal) ou blanc et le reste en blanc (resp. noir)
                 case02.setBackgroundColor(c2);              // et on met la valeur 1 dans la ligne0 pour savoir quel bouton est en noir (ou en blanc)
                 case03.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
@@ -411,6 +411,7 @@ public class Game extends AppCompatActivity{
                 case02.setBackgroundColor(c2);
                 case03.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
+                playDo();
                 ligne0 = 1;
                 break;
             case 2:
@@ -418,6 +419,7 @@ public class Game extends AppCompatActivity{
                 case01.setBackgroundColor(c2);
                 case03.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
+                playFa();
                 ligne0 = 2;
                 break;
             case 3:
@@ -425,6 +427,7 @@ public class Game extends AppCompatActivity{
                 case01.setBackgroundColor(c2);
                 case02.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
+                playLa();
                 ligne0 = 3;
                 break;
             case 4:
@@ -432,6 +435,7 @@ public class Game extends AppCompatActivity{
                 case01.setBackgroundColor(c2);
                 case02.setBackgroundColor(c2);
                 case03.setBackgroundColor(c2);
+                playMi();
                 ligne0 = 4;
                 break;
         }
@@ -441,6 +445,7 @@ public class Game extends AppCompatActivity{
                 case12.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
+                playDo();
                 ligne1 = 1;
                 break;
             case 2:
@@ -448,6 +453,7 @@ public class Game extends AppCompatActivity{
                 case11.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
+                playFa();
                 ligne1 = 2;
                 break;
             case 3:
@@ -455,6 +461,7 @@ public class Game extends AppCompatActivity{
                 case11.setBackgroundColor(c2);
                 case12.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
+                playRe();
                 ligne1 = 3;
                 break;
             case 4:
@@ -462,6 +469,7 @@ public class Game extends AppCompatActivity{
                 case11.setBackgroundColor(c2);
                 case12.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
+                playMi();
                 ligne1 = 4;
                 break;
         }
@@ -471,6 +479,7 @@ public class Game extends AppCompatActivity{
                 case22.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
+                playMi();
                 ligne2 = 1;
                 break;
             case 2:
@@ -478,6 +487,7 @@ public class Game extends AppCompatActivity{
                 case21.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
+                playDo();
                 ligne2 = 2;
                 break;
             case 3:
@@ -485,6 +495,7 @@ public class Game extends AppCompatActivity{
                 case21.setBackgroundColor(c2);
                 case22.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
+                playSi();
                 ligne2 = 3;
                 break;
             case 4:
@@ -492,6 +503,7 @@ public class Game extends AppCompatActivity{
                 case21.setBackgroundColor(c2);
                 case22.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
+                playSol();
                 ligne2 = 4;
                 break;
         }
@@ -503,6 +515,7 @@ public class Game extends AppCompatActivity{
                 case32.setBackgroundColor(c2);
                 case33.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
+                playSi();
                 ligne3 = 1;
                 break;
             case 2:
@@ -510,6 +523,7 @@ public class Game extends AppCompatActivity{
                 case31.setBackgroundColor(c2);
                 case33.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
+                playSi();
                 ligne3 = 2;
                 break;
             case 3:
@@ -517,6 +531,7 @@ public class Game extends AppCompatActivity{
                 case31.setBackgroundColor(c2);
                 case32.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
+                playLa();
                 ligne3 = 3;
                 break;
             case 4:
@@ -524,6 +539,7 @@ public class Game extends AppCompatActivity{
                 case31.setBackgroundColor(c2);
                 case32.setBackgroundColor(c2);
                 case33.setBackgroundColor(c2);
+                playMi();
                 ligne3 = 4;
                 break;
         }
@@ -539,6 +555,7 @@ public class Game extends AppCompatActivity{
                 case32.setBackgroundColor(c2);
                 case33.setBackgroundColor(c2);
                 case34.setBackgroundColor(c2);
+                playLa();
                 break;
             case 3:
                 case31.setBackgroundColor(c2);              // S'il en reste 3, les deux dernières lignes seront coloriees en blanc (ou noir)
@@ -549,6 +566,7 @@ public class Game extends AppCompatActivity{
                 case22.setBackgroundColor(c2);
                 case23.setBackgroundColor(c2);
                 case24.setBackgroundColor(c2);
+                playLa();
                 break;
             case 2:
                 case31.setBackgroundColor(c2);              // Et ainsi de suite ...
@@ -563,6 +581,7 @@ public class Game extends AppCompatActivity{
                 case12.setBackgroundColor(c2);
                 case13.setBackgroundColor(c2);
                 case14.setBackgroundColor(c2);
+                playSi();
                 break;
             case 1:
                 case31.setBackgroundColor(c2);
@@ -581,6 +600,7 @@ public class Game extends AppCompatActivity{
                 case02.setBackgroundColor(c2);
                 case03.setBackgroundColor(c2);
                 case04.setBackgroundColor(c2);
+                playSi();
                 chrono.stop();                                                          // On arrete le chrono
                 score = chrono.getText().toString();                                    // Et on recupere la valeur affichee par le chronometre
                 Intent intent = new Intent(Game.this, ResultatPos.class);  // On passe ensuite ces donnees dans l'intent pour les recuperer sur l'activite ResultatPos
@@ -613,6 +633,97 @@ public class Game extends AppCompatActivity{
         outState.putBoolean("etat_mode", onOff.isChecked());
 
         super.onSaveInstanceState(outState);
+    }
+    // Music
+    public void playDo(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.si);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void playRe(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.re);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void playMi(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.mi);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void playFa(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.fa);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void playSol(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.sol);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void playLa(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.la);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
+    }
+
+    public void playSi(){
+        stopGameSong();
+        gameOverSong = MediaPlayer.create(this, R.raw.si);
+        gameOverSong.setOnCompletionListener(
+                new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        stopGameSong();
+                    }
+                });
+        gameOverSong.start();
     }
 
     public void playGameOver(){
