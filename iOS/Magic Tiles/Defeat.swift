@@ -1,9 +1,9 @@
 //
 //  Defeat.swift
-//  Magic Tiles
+//  Piano Tiles
 //
-//  Created by Combo Kamarouzamane on 24/10/2018.
-//  Copyright © 2018 Combo Kamarouzamane. All rights reserved.
+//  Created by Alexandre Gresset on 05/04/2018.
+//  Copyright © 2018 Alexandre Gresset. All rights reserved.
 //
 
 import Foundation

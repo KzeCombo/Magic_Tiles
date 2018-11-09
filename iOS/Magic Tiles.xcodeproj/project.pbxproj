@@ -7,16 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5756C1C2218E268500F1F466 /* joeur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1C1218E268500F1F466 /* joeur.jpg */; };
+		5756C1CA218E269800F1F466 /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1C3218E269800F1F466 /* male.png */; };
+		5756C1CC218E269800F1F466 /* magicpiano.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1C5218E269800F1F466 /* magicpiano.png */; };
+		5756C1CD218E269800F1F466 /* piano.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1C6218E269800F1F466 /* piano.png */; };
+		5756C1CE218E269800F1F466 /* acceuil.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1C7218E269800F1F466 /* acceuil.png */; };
+		5756C1D0218E269800F1F466 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1C9218E269800F1F466 /* play.png */; };
+		5756C1E4218E31BD00F1F466 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1E3218E31BD00F1F466 /* images.png */; };
+		5756C1E6218E34C000F1F466 /* 06_menu_apps-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1E5218E34C000F1F466 /* 06_menu_apps-512.png */; };
+		5756C1E8218E37B000F1F466 /* anketa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5756C1E7218E37B000F1F466 /* anketa.png */; };
+		576375052190A38C008CCCB4 /* Localisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576375042190A38C008CCCB4 /* Localisation.swift */; };
+		578232AD21957348005109CD /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578232AC21957348005109CD /* Camera.swift */; };
+		578232AF21959689005109CD /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 578232AE21959688005109CD /* camera.png */; };
+		578232B3219597AD005109CD /* flash-auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 578232B2219597AD005109CD /* flash-auto.png */; };
+		57D32C61219032F80048343F /* mute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D32C60219032F80048343F /* mute.jpg */; };
+		57D32C63219038120048343F /* song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57D32C62219038120048343F /* song.wav */; };
+		57D32C65219039050048343F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D32C64219039050048343F /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		57D518C3218F693000BBB9C7 /* geo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D518C2218F693000BBB9C7 /* geo.png */; };
+		57DE2B482190987D0094E06A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE2B472190987D0094E06A /* MapKit.framework */; };
+		57DE2B4A219098F10094E06A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE2B49219098F10094E06A /* CoreMotion.framework */; };
+		57DE2B4C219099000094E06A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE2B4B219099000094E06A /* CoreLocation.framework */; };
+		57E540BB2191B9B700624711 /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E540BA2191B9B700624711 /* AnimationButton.swift */; };
+		57EA48DD21959FCE00FCF7B8 /* frontal.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EA48DC21959FCD00FCF7B8 /* frontal.png */; };
 		FA6B4BF12085AC4300C1F6C1 /* Highscores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B4BF02085AC4300C1F6C1 /* Highscores.swift */; };
 		FA7D4B262079086000DDC129 /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D4B252079086000DDC129 /* Save.swift */; };
 		FA7DAAAB206A18D500DFE750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAAAA206A18D500DFE750 /* AppDelegate.swift */; };
 		FA7DAAAD206A18D500DFE750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAAAC206A18D500DFE750 /* ViewController.swift */; };
 		FA7DAAB0206A18D500DFE750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7DAAAE206A18D500DFE750 /* Main.storyboard */; };
-		FA7DAAB3206A18D500DFE750 /* Magic_Tiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAAB1206A18D500DFE750 /* Magic_Tiles.xcdatamodeld */; };
+		FA7DAAB3206A18D500DFE750 /* Piano_Tiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAAB1206A18D500DFE750 /* Piano_Tiles.xcdatamodeld */; };
 		FA7DAAB5206A18D500DFE750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7DAAB4206A18D500DFE750 /* Assets.xcassets */; };
 		FA7DAAB8206A18D500DFE750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7DAAB6206A18D500DFE750 /* LaunchScreen.storyboard */; };
-		FA7DAAC3206A18D500DFE750 /* Magic_TilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAAC2206A18D500DFE750 /* Magic_TilesTests.swift */; };
-		FA7DAACE206A18D500DFE750 /* Magic_TilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAACD206A18D500DFE750 /* Magic_TilesUITests.swift */; };
+		FA7DAAC3206A18D500DFE750 /* Piano_TilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAAC2206A18D500DFE750 /* Piano_TilesTests.swift */; };
+		FA7DAACE206A18D500DFE750 /* Piano_TilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DAACD206A18D500DFE750 /* Piano_TilesUITests.swift */; };
 		FAE74465207270F200B2E31F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74464207270F200B2E31F /* Game.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,33 +48,55 @@
 			containerPortal = FA7DAA9F206A18D500DFE750 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA7DAAA6206A18D500DFE750;
-			remoteInfo = "Magic Tiles";
+			remoteInfo = "Piano Tiles";
 		};
 		FA7DAACA206A18D500DFE750 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA7DAA9F206A18D500DFE750 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA7DAAA6206A18D500DFE750;
-			remoteInfo = "Magic Tiles";
+			remoteInfo = "Piano Tiles";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5756C1C1218E268500F1F466 /* joeur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joeur.jpg; sourceTree = "<group>"; };
+		5756C1C3218E269800F1F466 /* male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male.png; sourceTree = "<group>"; };
+		5756C1C5218E269800F1F466 /* magicpiano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magicpiano.png; sourceTree = "<group>"; };
+		5756C1C6218E269800F1F466 /* piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piano.png; sourceTree = "<group>"; };
+		5756C1C7218E269800F1F466 /* acceuil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acceuil.png; sourceTree = "<group>"; };
+		5756C1C9218E269800F1F466 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		5756C1E3218E31BD00F1F466 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		5756C1E5218E34C000F1F466 /* 06_menu_apps-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06_menu_apps-512.png"; sourceTree = "<group>"; };
+		5756C1E7218E37B000F1F466 /* anketa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anketa.png; sourceTree = "<group>"; };
+		576375042190A38C008CCCB4 /* Localisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localisation.swift; sourceTree = "<group>"; };
+		578232AC21957348005109CD /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		578232AE21959688005109CD /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		578232B2219597AD005109CD /* flash-auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-auto.png"; sourceTree = "<group>"; };
+		57D32C60219032F80048343F /* mute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mute.jpg; sourceTree = "<group>"; };
+		57D32C62219038120048343F /* song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = song.wav; sourceTree = SOURCE_ROOT; };
+		57D32C64219039050048343F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		57D518C2218F693000BBB9C7 /* geo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geo.png; sourceTree = "<group>"; };
+		57DE2B472190987D0094E06A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		57DE2B49219098F10094E06A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		57DE2B4B219099000094E06A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57E540BA2191B9B700624711 /* AnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationButton.swift; sourceTree = "<group>"; };
+		57EA48DC21959FCD00FCF7B8 /* frontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontal.png; sourceTree = "<group>"; };
 		FA6B4BF02085AC4300C1F6C1 /* Highscores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highscores.swift; sourceTree = "<group>"; };
 		FA7D4B252079086000DDC129 /* Save.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
 		FA7DAAA7206A18D500DFE750 /* Magic Tiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Tiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7DAAAA206A18D500DFE750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7DAAAC206A18D500DFE750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA7DAAAF206A18D500DFE750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FA7DAAB2206A18D500DFE750 /* Magic_Tiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magic_Tiles.xcdatamodel; sourceTree = "<group>"; };
+		FA7DAAB2206A18D500DFE750 /* Piano_Tiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Piano_Tiles.xcdatamodel; sourceTree = "<group>"; };
 		FA7DAAB4206A18D500DFE750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7DAAB7206A18D500DFE750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7DAAB9206A18D500DFE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA7DAABE206A18D500DFE750 /* Magic TilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic TilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA7DAAC2206A18D500DFE750 /* Magic_TilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_TilesTests.swift; sourceTree = "<group>"; };
+		FA7DAABE206A18D500DFE750 /* Magic Tiles.xcodeproj */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Magic Tiles.xcodeproj"; path = "Magic TilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7DAAC2206A18D500DFE750 /* Piano_TilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piano_TilesTests.swift; sourceTree = "<group>"; };
 		FA7DAAC4206A18D500DFE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA7DAAC9206A18D500DFE750 /* Magic TilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic TilesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA7DAACD206A18D500DFE750 /* Magic_TilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_TilesUITests.swift; sourceTree = "<group>"; };
+		FA7DAAC9206A18D500DFE750 /* Magic Tiles.xcodeproj */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Magic Tiles.xcodeproj"; path = "Magic TilesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7DAACD206A18D500DFE750 /* Piano_TilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piano_TilesUITests.swift; sourceTree = "<group>"; };
 		FA7DAACF206A18D500DFE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE74464207270F200B2E31F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +106,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DE2B4C219099000094E06A /* CoreLocation.framework in Frameworks */,
+				57DE2B4A219098F10094E06A /* CoreMotion.framework in Frameworks */,
+				57DE2B482190987D0094E06A /* MapKit.framework in Frameworks */,
+				57D32C65219039050048343F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +130,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5726535A218E1DF200DF5E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DE2B4B219099000094E06A /* CoreLocation.framework */,
+				57DE2B49219098F10094E06A /* CoreMotion.framework */,
+				57DE2B472190987D0094E06A /* MapKit.framework */,
+				57D32C64219039050048343F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA7DAA9E206A18D500DFE750 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +148,7 @@
 				FA7DAAC1206A18D500DFE750 /* Magic TilesTests */,
 				FA7DAACC206A18D500DFE750 /* Magic TilesUITests */,
 				FA7DAAA8206A18D500DFE750 /* Products */,
+				5726535A218E1DF200DF5E5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				FA7DAAA7206A18D500DFE750 /* Magic Tiles.app */,
-				FA7DAABE206A18D500DFE750 /* Magic TilesTests.xctest */,
-				FA7DAAC9206A18D500DFE750 /* Magic TilesUITests.xctest */,
+				FA7DAABE206A18D500DFE750 /* Magic Tiles.xcodeproj */,
+				FA7DAAC9206A18D500DFE750 /* Magic Tiles.xcodeproj */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,13 +168,31 @@
 				FA7DAAAA206A18D500DFE750 /* AppDelegate.swift */,
 				FA7DAAAC206A18D500DFE750 /* ViewController.swift */,
 				FA7DAAAE206A18D500DFE750 /* Main.storyboard */,
+				57D32C62219038120048343F /* song.wav */,
+				5756C1E7218E37B000F1F466 /* anketa.png */,
+				57EA48DC21959FCD00FCF7B8 /* frontal.png */,
+				57D518C2218F693000BBB9C7 /* geo.png */,
+				5756C1E5218E34C000F1F466 /* 06_menu_apps-512.png */,
+				5756C1C1218E268500F1F466 /* joeur.jpg */,
+				5756C1C7218E269800F1F466 /* acceuil.png */,
+				578232B2219597AD005109CD /* flash-auto.png */,
+				578232AE21959688005109CD /* camera.png */,
+				5756C1C5218E269800F1F466 /* magicpiano.png */,
+				5756C1C3218E269800F1F466 /* male.png */,
+				57D32C60219032F80048343F /* mute.jpg */,
+				5756C1C6218E269800F1F466 /* piano.png */,
+				5756C1E3218E31BD00F1F466 /* images.png */,
+				5756C1C9218E269800F1F466 /* play.png */,
 				FA7DAAB4206A18D500DFE750 /* Assets.xcassets */,
 				FA7DAAB6206A18D500DFE750 /* LaunchScreen.storyboard */,
 				FA7DAAB9206A18D500DFE750 /* Info.plist */,
-				FA7DAAB1206A18D500DFE750 /* Magic_Tiles.xcdatamodeld */,
+				FA7DAAB1206A18D500DFE750 /* Piano_Tiles.xcdatamodeld */,
 				FAE74464207270F200B2E31F /* Game.swift */,
 				FA7D4B252079086000DDC129 /* Save.swift */,
 				FA6B4BF02085AC4300C1F6C1 /* Highscores.swift */,
+				576375042190A38C008CCCB4 /* Localisation.swift */,
+				57E540BA2191B9B700624711 /* AnimationButton.swift */,
+				578232AC21957348005109CD /* Camera.swift */,
 			);
 			path = "Magic Tiles";
 			sourceTree = "<group>";
@@ -122,7 +200,7 @@
 		FA7DAAC1206A18D500DFE750 /* Magic TilesTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA7DAAC2206A18D500DFE750 /* Magic_TilesTests.swift */,
+				FA7DAAC2206A18D500DFE750 /* Piano_TilesTests.swift */,
 				FA7DAAC4206A18D500DFE750 /* Info.plist */,
 			);
 			path = "Magic TilesTests";
@@ -131,7 +209,7 @@
 		FA7DAACC206A18D500DFE750 /* Magic TilesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FA7DAACD206A18D500DFE750 /* Magic_TilesUITests.swift */,
+				FA7DAACD206A18D500DFE750 /* Piano_TilesUITests.swift */,
 				FA7DAACF206A18D500DFE750 /* Info.plist */,
 			);
 			path = "Magic TilesUITests";
@@ -153,7 +231,7 @@
 			dependencies = (
 			);
 			name = "Magic Tiles";
-			productName = "Magic Tiles";
+			productName = "Piano Tiles";
 			productReference = FA7DAAA7206A18D500DFE750 /* Magic Tiles.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -171,8 +249,8 @@
 				FA7DAAC0206A18D500DFE750 /* PBXTargetDependency */,
 			);
 			name = "Magic TilesTests";
-			productName = "Magic TilesTests";
-			productReference = FA7DAABE206A18D500DFE750 /* Magic TilesTests.xctest */;
+			productName = "Piano TilesTests";
+			productReference = FA7DAABE206A18D500DFE750 /* Magic Tiles.xcodeproj */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FA7DAAC8206A18D500DFE750 /* Magic TilesUITests */ = {
@@ -189,8 +267,8 @@
 				FA7DAACB206A18D500DFE750 /* PBXTargetDependency */,
 			);
 			name = "Magic TilesUITests";
-			productName = "Magic TilesUITests";
-			productReference = FA7DAAC9206A18D500DFE750 /* Magic TilesUITests.xctest */;
+			productName = "Piano TilesUITests";
+			productReference = FA7DAAC9206A18D500DFE750 /* Magic Tiles.xcodeproj */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,21 +277,32 @@
 		FA7DAA9F206A18D500DFE750 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Alexandre Gresset";
+				ORGANIZATIONNAME = "Hajanirina Randimbisoa";
 				TargetAttributes = {
 					FA7DAAA6206A18D500DFE750 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					FA7DAABD206A18D500DFE750 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FA7DAAA6206A18D500DFE750;
 					};
 					FA7DAAC8206A18D500DFE750 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FA7DAAA6206A18D500DFE750;
 					};
@@ -244,9 +333,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D32C63219038120048343F /* song.wav in Resources */,
+				5756C1CE218E269800F1F466 /* acceuil.png in Resources */,
+				5756C1E8218E37B000F1F466 /* anketa.png in Resources */,
 				FA7DAAB8206A18D500DFE750 /* LaunchScreen.storyboard in Resources */,
+				57EA48DD21959FCE00FCF7B8 /* frontal.png in Resources */,
+				5756C1CA218E269800F1F466 /* male.png in Resources */,
+				5756C1E6218E34C000F1F466 /* 06_menu_apps-512.png in Resources */,
+				578232AF21959689005109CD /* camera.png in Resources */,
+				5756C1C2218E268500F1F466 /* joeur.jpg in Resources */,
+				5756C1CD218E269800F1F466 /* piano.png in Resources */,
 				FA7DAAB5206A18D500DFE750 /* Assets.xcassets in Resources */,
+				57D32C61219032F80048343F /* mute.jpg in Resources */,
+				57D518C3218F693000BBB9C7 /* geo.png in Resources */,
+				5756C1D0218E269800F1F466 /* play.png in Resources */,
+				578232B3219597AD005109CD /* flash-auto.png in Resources */,
 				FA7DAAB0206A18D500DFE750 /* Main.storyboard in Resources */,
+				5756C1E4218E31BD00F1F466 /* images.png in Resources */,
+				5756C1CC218E269800F1F466 /* magicpiano.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +376,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6B4BF12085AC4300C1F6C1 /* Highscores.swift in Sources */,
-				FA7DAAB3206A18D500DFE750 /* Magic_Tiles.xcdatamodeld in Sources */,
+				FA7DAAB3206A18D500DFE750 /* Piano_Tiles.xcdatamodeld in Sources */,
+				576375052190A38C008CCCB4 /* Localisation.swift in Sources */,
 				FA7DAAAD206A18D500DFE750 /* ViewController.swift in Sources */,
+				57E540BB2191B9B700624711 /* AnimationButton.swift in Sources */,
 				FA7D4B262079086000DDC129 /* Save.swift in Sources */,
 				FA7DAAAB206A18D500DFE750 /* AppDelegate.swift in Sources */,
 				FAE74465207270F200B2E31F /* Game.swift in Sources */,
+				578232AD21957348005109CD /* Camera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7DAAC3206A18D500DFE750 /* Magic_TilesTests.swift in Sources */,
+				FA7DAAC3206A18D500DFE750 /* Piano_TilesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7DAACE206A18D500DFE750 /* Magic_TilesUITests.swift in Sources */,
+				FA7DAACE206A18D500DFE750 /* Piano_TilesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,13 +553,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KNZGBRS8A;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Magic Tiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Magic-Tiles";
+				PRODUCT_BUNDLE_IDENTIFIER = "Randi.Magic-Tiles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,13 +571,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KNZGBRS8A;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Magic Tiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Magic-Tiles";
+				PRODUCT_BUNDLE_IDENTIFIER = "Randi.Magic-Tiles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -479,11 +592,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KNZGBRS8A;
-				INFOPLIST_FILE = "Magic TilesTests/Info.plist";
+				INFOPLIST_FILE = "Piano TilesTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Magic-TilesTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Piano-TilesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Tiles.app/Magic Tiles";
 			};
@@ -496,11 +609,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KNZGBRS8A;
-				INFOPLIST_FILE = "Magic TilesTests/Info.plist";
+				INFOPLIST_FILE = "Piano TilesTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Magic-TilesTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Piano-TilesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Tiles.app/Magic Tiles";
 			};
@@ -512,13 +625,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KNZGBRS8A;
-				INFOPLIST_FILE = "Magic TilesUITests/Info.plist";
+				INFOPLIST_FILE = "Piano TilesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Magic-TilesUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Piano-TilesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Magic Tiles";
+				TEST_TARGET_NAME = "Piano Tiles";
 			};
 			name = Debug;
 		};
@@ -528,13 +641,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KNZGBRS8A;
-				INFOPLIST_FILE = "Magic TilesUITests/Info.plist";
+				INFOPLIST_FILE = "Piano TilesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Magic-TilesUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "PraKrit.Piano-TilesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Magic Tiles";
+				TEST_TARGET_NAME = "Piano Tiles";
 			};
 			name = Release;
 		};
@@ -580,13 +693,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FA7DAAB1206A18D500DFE750 /* Magic_Tiles.xcdatamodeld */ = {
+		FA7DAAB1206A18D500DFE750 /* Piano_Tiles.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FA7DAAB2206A18D500DFE750 /* Magic_Tiles.xcdatamodel */,
+				FA7DAAB2206A18D500DFE750 /* Piano_Tiles.xcdatamodel */,
 			);
-			currentVersion = FA7DAAB2206A18D500DFE750 /* Magic_Tiles.xcdatamodel */;
-			path = Magic_Tiles.xcdatamodeld;
+			currentVersion = FA7DAAB2206A18D500DFE750 /* Piano_Tiles.xcdatamodel */;
+			path = Piano_Tiles.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

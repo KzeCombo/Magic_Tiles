@@ -1,9 +1,9 @@
 //
 //  Highscores.swift
-//  Magic Tiles
+//  Piano Tiles
 //
-//  Created by Combo Kamarouzamane on 24/10/2018.
-//  Copyright © 2018 Combo Kamarouzamane. All rights reserved.
+//  Created by Hajanirina Randimbisoa on 23/10/2018.
+//  Copyright © 2018 Alexandre Gresset. All rights reserved.
 //
 
 import UIKit
@@ -12,12 +12,14 @@ import CoreData
 class Highscores: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableHighscores: UITableView!
+    @IBOutlet weak var searchBar: UISearchBar!
     
     var lastHighscoreID = ""
     var lastHighscoreTime = ""
     var arrayHighscore = [NSManagedObject]()
     var newScore = false
-
+    var searchScore = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if(newScore) {
@@ -63,8 +65,9 @@ class Highscores: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    //Fonction pour la barre de recherche
     
-    
+    //Affichage de la liste des participant
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayHighscore.count
     }
@@ -78,13 +81,13 @@ class Highscores: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        let delAction = UITableViewRowAction(style: UITableViewRowActionStyle.default, title: "Delete") {(action, index) in
+        let delAction = UITableViewRowAction(style: UITableViewRowAction.Style.default, title: "Delete") {(action, index) in
             guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
             let managedContext = appDelegate.persistentContainer.viewContext
             let item = self.arrayHighscore[indexPath.row]
             managedContext.delete(item)
             self.arrayHighscore.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.automatic)
+            tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
             
             do {
                 try managedContext.save()
@@ -92,7 +95,13 @@ class Highscores: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 print("failled to delete", err)
             }
         }
-        delAction.backgroundColor = UIColor.orange
+        delAction.backgroundColor = UIColor.red
         return [delAction]
     }
 }
+
+        
+
+        
+
+

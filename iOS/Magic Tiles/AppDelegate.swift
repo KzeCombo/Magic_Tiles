@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Magic Tiles
+//  Piano Tiles
 //
-//  Created by Combo Kamarouzamane on 24/10/2018.
-//  Copyright © 2018 Combo Kamarouzamane. All rights reserved.
+//  Created by Hajanirina Randimbisoa on 20/10/2018.
+//  Copyright © 2018 Hajanirina Randimbisoa. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
         
         return true
@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Magic_Tiles")
+        let container = NSPersistentContainer(name: "Piano_Tiles")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
