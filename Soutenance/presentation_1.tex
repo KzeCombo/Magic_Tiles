@@ -197,11 +197,77 @@ carte.
 
 %------------------------------------------------
 \begin{frame}
-\begin{block}{L'implémentation du jeu}
+\frametitle{Android}
+\begin{block}{Activity Game}
+	L'objectif ici était de pouvoir ajouter une couleur aux boutons pour simuler des touches de
+piano. Ainsi, dès que cette activité est lancée, nous générons{ \color{red} un nombre aléatoire compris entre 1
+et 4} pour chacune des lignes afin de déterminer quel bouton sera {\color{red} noir}. Les autres seront dès lors
+coloriés en blanc .
 
 \end{block}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Android}
+\begin{block}{Activity Game}
+	L'objectif ici était de pouvoir ajouter une couleur aux boutons pour simuler des touches de
+piano. Ainsi, dès que cette activité est lancée, nous générons{ \color{red} un nombre aléatoire compris entre 1
+et 4} pour chacune des lignes afin de déterminer quel bouton sera {\color{red} noir}. Les autres seront dès lors
+coloriés en blanc .
+
+\end{block}
+
+    \begin{center}
+      \includegraphics[width=20mm]{AndroidGame}
+      \includegraphics[width=20mm]{AndroidGameInvers}
+
+    \end{center}
    
 \end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle<1->{Android}
+\begin{block}<1->{Activity Game}
+	Une seule ligne de boutons est cliquable - nous l'appelleront " {\color{red} Ligne 0} " -, celle qui se situe tout
+en bas de l'écran, le reste des boutons sont désactivé. Nous n'avons donc ajouté des écouteurs
+qu'aux boutons de la ligne 0.
+
+\end{block}
+
+   \begin{center}Ligne 0 ->
+      \includegraphics[width=20mm]{AndroidGame}
+      \includegraphics[width=20mm]{AndroidGameInvers}
+
+    \end{center}
+
+\begin{exampleblock}<2->{Activity Game}
+	     {\small Lorsqu'on appuie pour la premier fois sur l'un des boutons de la ligne 0,
+ { \color {red}le chronomètre sera démarré} et le choix du mode ne sera dès lors {\color {red} plus accessible}.}
+
+
+
+\end{exampleblock}
+   
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle<1->{Android}
+
+
+    \begin{center}
+      \includegraphics[width=20mm]{AndroidGame}
+      \includegraphics[width=20mm]{AndroidGameInvers}
+
+    \end{center}
+   
+\end{frame}
+
 
 
 
