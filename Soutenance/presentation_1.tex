@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+\graphicspath{{Images/}}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+\usepackage[utf8]{inputenc}% A modifier en fonction du codage d'entrée
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}% Ou autre fonte
+
+ \usepackage[french]{babel}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Magic Tiles]{Soutenance de Projet : Développement Mobile} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Kamarouzamane Combo \& Hajanirina Randimbisoa} % Your name
+
+\institute{\normalsize{M1 Informatique Université de la Réunion}}
+
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Sommaire} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Introduction}
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
+
+\begin{frame}
+  \frametitle{Introduction}
+  \begin{block}{Objectif}
+    \begin{itemize}
+    \item {Créer une application mobile sur Android et iOS}
+    \end{itemize}
+  \end{block}
+    \begin{block}{Contraintes}
+    \begin{itemize}
+    \item {Changement de configuration}
+    \item {Géolocalisation}
+    \item {Utiliser un capteur}
+    \item {Utilisation d' au moins un geste courant non-trivial}
+    \item {Ajouter du son}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Présentation du jeu}
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+  \frametitle{Présentation du jeu}
+\begin{block}{Principe} 
+    \begin{itemize}
+         \item {Le jeu Magic Tiles est un jeu de modélisation et de simulation des touches de piano}
+     \begin{center}
+      \includegraphics[width=20mm]{iOSapp1}
+      \includegraphics[width=20mm]{iOS}
+
+    \end{center}
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Android}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Android}
+\begin{block}{Présentation}
+% Your image included here
+\end{block}
+
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\begin{block}{Portion de code}
+\end{block}
+   
+\end{frame}
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{iOS}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{iOS}
+	\begin{block}{Storyboard et programmation  : MVC}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{iOS}
+\begin{block}{Storyboard et programmation }
+	\end{block}
+
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{iOS}
+	\begin{block}{Storyboard et programmation}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{iOS}
+	\frametitle{iOS}
+	\begin{block}{Persistance des données}
+	\end{block}
+\end{frame}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Démonstration}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Démonstration}
+	\Huge{\centerline{Démonstration}}
+\end{frame}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Conclusion}
+%---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{frame}
+\frametitle{Conclusion}
+	\Huge{\centerline{Conclusion}}
+	Ce projet a fait l'objet d'une expérience à  la fois intéressante et enrichissante, qui nous a permis d'améliorer nos connaissances et nos compétences dans le domaine du développement d'applications mobile.
+\end{frame}
+
+\begin{frame}
+\Huge{\centerline{The End}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
