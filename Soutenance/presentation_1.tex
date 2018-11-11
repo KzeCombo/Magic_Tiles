@@ -256,17 +256,6 @@ qu'aux boutons de la ligne 0.
 
 %------------------------------------------------
 
-\begin{frame}
-\frametitle<1->{Android}
-
-
-    \begin{center}
-      \includegraphics[width=20mm]{AndroidGame}
-      \includegraphics[width=20mm]{AndroidGameInvers}
-
-    \end{center}
-   
-\end{frame}
 
 
 
@@ -275,6 +264,65 @@ qu'aux boutons de la ligne 0.
 \section{iOS}
 %---------------------------------------------------------------------------------------------------------------------------------------------------------
 
+\begin{frame}
+\frametitle{iOS}
+ \begin{block}{Création de l'application : }
+    \begin{itemize}
+    \item {Quand on crée un nouveau projet, plusieurs options nous sont offertes. Le premier sert à effectuer des tests (Playgrounds) de code swift pour déboguer sans démarrer de véritable projet. Le deuxième permet de créer un nouveau véritable projet. Le troisième sert si vous avez un repository à votre dispotition sur un git, il est alors possible de le récupérer ainsi.}
+    \end{itemize}
+  \end{block}
+
+	\begin{block}{Storyboard et programmation  : MVC}
+	\par La structure de projet iOS est basée sur le modèle MVC ( Modèle Vue Controlleur)
+	 \begin{itemize}
+    	\item {Modèle: Les données de l’applications }
+	\item {Vue: La partie visuelle de l’application, c’est en quelque sorte l’IHM  }
+	\item {Controlleur: Contrôleur, c’est la partie logique de notre application, elle va permettre d’interagir entre les différentes vues }
+ 
+    \end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{iOS}
+\begin{block}{Storyboard et programmation }
+		 \begin{itemize}
+\item {Accueil:  contenant les fonctionnalités de l'application} 
+    	\item {AnimationButton.swift: création d'une animation sur les bouttons }
+   	 \item {AppDelegate.swift : gère les événements du cycle de vie d'une application}
+ 	  \item {Camera.swift: l'appareil photo}	
+  	  \item {Game.swift : présenter à l'aide d'un boutton play en rouge}
+	 \item {Highscores.swift : historique des scores sauvegardés }
+	    \item {Localisation.swift: permet de faire une  géolocalisation}
+	    \item {Save.swift : sauvegarde des temps mis pour le jeux}
+	    \item {ViewController.swift : corps de l'application}
+  \end{itemize}
+	\end{block}
+
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{iOS}
+	\begin{block}{Storyboard et programmation}
+	\par Pour en conclure avec cela, les fichiers AppDelegate.swift et Main.swift sont donc les code sources des contrôleurs de notre application. Les fichiers .storyboard sont les vues de l’application (LaunchScreen pour l’écran de démarrage d’une application, et Main pour la première vue de l’application)
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{iOS}
+	\frametitle{iOS}
+	\begin{block}{Explication d'autre méthodes}
+	 \begin{itemize}
+	\item {ViewDidLoad :  appelée automatiquement lorsque la vue se charge } 
+    	\item {didRecieveMemoryWarning:appelée lorsque l’iPhone est surchargé en mémoire vive (RAM), c’est donc pour permettre une bonne optimisation et donc éviter que l’application ne crash.}
+\item {@NSManaged :  permet à Xcode de faire le lien avec l'attribut de notre entité } 
+\item {CoreData :  permet d'utiliser les classes qui s'y rapportent } 
+ 	
+  \end{itemize}
+	\end{block}
+\end{frame}
 
 
 %---------------------------------------------------------------------------------------------------------------------------------------------------------
