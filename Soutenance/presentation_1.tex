@@ -88,7 +88,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Magic Tiles]{Soutenance de Projet : Développement Mobile} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Magic Tiles]{Soutenance Développement Mobile : Magic Tiles} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Kamarouzamane Combo \& Hajanirina Randimbisoa} % Your name
 
@@ -161,16 +161,44 @@
 %---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \begin{frame}
-\frametitle{Android}
-\begin{block}{Présentation}
-% Your image included here
-\end{block}
+    \frametitle<1->{Android}
+     \begin{block}<1->{Les Activités}
+	Il y a 7 \textit{activités}:
+{\scriptsize
+	\begin{itemize}
+	     \item <1->\textit{Accueil} : L'écran d'accueil, apparaît au lancement de l'application. 
+
+	     \item <2->\textit{Game} : Elle permet de lancer le jeu.
+
+	     \item <3->\textit{ResultatNeg} : Elle s'affiche en cas de défaite, on affche le meilleur score s'il y en un. 
+On donne ensuite la possibilité au joueur de rejouer ou d'accéder à l'écran d'accueil.
+
+ 	     \item <4->\textit{ResultatPos} :  Elle s'affiche en cas de victoire, on affche le meilleur score s'il y en un.
+On donne ensuite la possibilité au joueur de rejouer, d'enregistrer son score ou d'accéder à l'écran d'accueil.
+on récupère les données transmises par l'activité Game dans l'intent et on les retransmet ensuite pour l'activité
+Enregistrer si on appuie sur ce bouton.
+
+	     \item <5->\textit{Enregistrer} : Dans cette activité, on dispose de trois boutons, l'un pour valider son enregistrement, un autre
+pour prendre une photo et un autre pour annuler ( pour revenir au menu).
+Le joueur a la possibilité d'écrire son nom, mais ne doit pas dépasser une quinzaine de caractères, et doit en entrer au moins trois. 
+Les données seront également transmises à l'activité ListeScores.
+
+	     \item <6->\textit{ListeScore} : Dans cette activité, nous allons créer les scores, les afficher et les enregistrer dans une base de données (via les classes Score, ScoresAdapter et MyDBAdapter)
+
+	     \item <7->\textit{Maps} : Cette activité permet à  l’application de récupérer la position du joueur et l’afficher sur une
+carte.
+
+	\end{itemize} 
+}
+
+     \end{block}
 
 \end{frame}
 
 %------------------------------------------------
 \begin{frame}
-\begin{block}{Portion de code}
+\begin{block}{L'implémentation du jeu}
+
 \end{block}
    
 \end{frame}
@@ -181,33 +209,7 @@
 \section{iOS}
 %---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\begin{frame}
-\frametitle{iOS}
-	\begin{block}{Storyboard et programmation  : MVC}
-	\end{block}
-\end{frame}
 
-\begin{frame}
-\frametitle{iOS}
-\begin{block}{Storyboard et programmation }
-	\end{block}
-
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{iOS}
-	\begin{block}{Storyboard et programmation}
-	\end{block}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{iOS}
-	\frametitle{iOS}
-	\begin{block}{Persistance des données}
-	\end{block}
-\end{frame}
 
 %---------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Démonstration}
@@ -225,8 +227,9 @@
 
 \begin{frame}
 \frametitle{Conclusion}
-	\Huge{\centerline{Conclusion}}
+	\begin{block}{Conclusion}
 	Ce projet a fait l'objet d'une expérience à  la fois intéressante et enrichissante, qui nous a permis d'améliorer nos connaissances et nos compétences dans le domaine du développement d'applications mobile.
+	\end{block}
 \end{frame}
 
 \begin{frame}
