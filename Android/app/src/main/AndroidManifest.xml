@@ -28,6 +28,7 @@
         <activity android:name=".ResultatNeg"></activity>
         <activity android:name=".ListeScores"></activity>
         <activity android:name=".Enregistrer"></activity>
+        <activity android:name=".MapsActivity"></activity>
     </application>
 
 </manifest>

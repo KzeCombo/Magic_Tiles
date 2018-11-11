@@ -16,6 +16,63 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <TextView
+        android:id="@+id/x_textview"
+        android:text="@string/x_eq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/y_textview"
+        android:text="@string/y_eq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x_textview"/>
+
+    <TextView
+        android:id="@+id/z_textview"
+        android:text="@string/z_eq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y_textview"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/z_textview"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <Spinner
+            android:id="@+id/sensor_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/sensor">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/frequency_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/rate">
+        </Spinner>
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/startstop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="startStopCapture"
+        android:textOff="@string/start_button"
+        android:textOn="@string/stop_button"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"/>
+
+
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,11 +94,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/bouton_new"
-        app:layout_constraintBottom_toTopOf="@id/bscore"
+        app:layout_constraintBottom_toTopOf="@id/bmap"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/bmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/bouton_map"
+        app:layout_constraintBottom_toTopOf="@id/bscore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bnouvelle_partie"/>
 
     <Button
         android:id="@+id/bscore"
@@ -53,6 +122,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bnouvelle_partie" />
+        app:layout_constraintTop_toBottomOf="@id/bmap" />
 
 </android.support.constraint.ConstraintLayout>
